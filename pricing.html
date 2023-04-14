@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>photosnap-multi-page-website</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="./index.html">
+        <img src="./images/logo.svg" alt="logo photosnap" />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="./stories.html">STORIES</a>
+          </li>
+          <li>
+            <a href="./features.html">FEATURES</a>
+          </li>
+          <li>
+            <a href="./pricing.html">PRICING</a>
+          </li>
+        </ul>
+      </nav>
+      <button>GET AN INVITE</button>
+    </header>
+
+    <main>
+      <section>
+        <article class="box">
+          <div class="box__content black">
+            <img
+              class="box__content-linear"
+              src="./images/lingradient_litle.png"
+              alt=""
+            />
+            <div class="box__content-center features__center">
+              <h2 class="h2__w">PRICING</h2>
+              <p class="p__w">
+                Create a your stories, Photosnap is a platform for photographers
+                and visual storytellers. It’s the simple way to create and share
+                your photos.
+              </p>
+            </div>
+          </div>
+          <div class="pricing"></div>
+        </article>
+      </section>
+
+      <section>
+        <article class="forms">
+          <div class="toggleWrapper">
+            <input type="checkbox" class="dn" id="dn"/>
+            <label for="dn" class="toggle">
+              <span class="toggle__handler"></span>
+            </label>
+          </div>
+
+          <div class="forms__price">
+            <div class="forms__price-plans">
+              <div class="plan plan__l">
+                <h3>Basic</h3>
+                <p>
+                  Includes basic usage of our platform. Recommended for new and
+                  aspiring photographers.
+                </p>
+              </div>
+              <div class="plan plan__r">
+                <span class="plan__price">$19.00</span><br />
+                <span class="plan__month">per month</span>
+              </div>
+              <button>PICK PLAN</button>
+            </div>
+          
+            <div class="forms__price-plans pro">
+              <img src="./images/linear_pro.png" alt="">
+              <div class="plan">
+                <h3>Pro</h3>
+                <p>More advanced features available. Recommended for photography veterans and professionals.
+                </p>
+              </div>
+              <div class="plan">
+                <span class="plan__price">$39.00</span><br />
+                <span class="plan__month">per month</span>
+              </div>
+              <button>PICK PLAN</button>
+            </div>
+
+            <div class="forms__price-plans">
+              <div class="plan">
+                <h3>Business</h3>
+                <p>
+                  Additional features available such as more detailed metrics.
+                  Recommended for business owners.
+                </p>
+              </div>
+              <div class="plan">
+                <span class="plan__price">$99.00</span><br />
+                <span class="plan__month">per month</span>
+              </div>
+              <button>PICK PLAN</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="compare">
+          <h2>COMPARE</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>THE FEATURES</th>
+                <th class="tab">BASIC</th>
+                <th class="tab">PRO</th>
+                <th class="tab">BUSINESS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>UNLIMITED STORY POSTING</th>
+                <td><img src="./images/ok.svg" alt=""></td>
+                <td><img src="./images/ok.svg" alt=""></td>
+                <td><img src="./images/ok.svg" alt=""></td>
+              </tr>
+              <tr>
+                <th>UNLIMITED PHOTO UPLOAD</th>
+                <td><img src="./images/ok.svg" alt=""></td>
+                <td><img src="./images/ok.svg" alt=""></td>
+                <td><img src="./images/ok.svg" alt=""></td>
+              </tr>
+              <tr>
+                <th>EMBEDDING CUSTOM CONTENT</th>
+                <td></td>
+                <td><img src="./images/ok.svg" alt=""></td>
+                <td><img src="./images/ok.svg" alt=""></td>
+              </tr>
+              <tr>
+                <th>CUSTOMIZE METADATA</th>
+                <td></td>
+                <td><img src="./images/ok.svg" alt=""></td>
+                <td><img src="./images/ok.svg" alt=""></td>
+              </tr>
+              <tr>
+                <th>ADVANCED METRICS</th>
+                <td></td>
+                <td></td>
+                <td><img src="./images/ok.svg" alt=""></td>
+              </tr>
+              <tr>
+                <th>PHOTO DOWNLOADS</th>
+                <td></td>
+                <td></td>
+                <td><img src="./images/ok.svg" alt=""></td>
+              </tr>
+              <tr>
+                <th>SEARCH ENGINE INDEXING</th>
+                <td></td>
+                <td></td>
+                <td><img src="./images/ok.svg" alt=""></td>
+              </tr>
+              <tr>
+                <th>CUSTOM ANALYTICS</th>
+                <td></td>
+                <td></td>
+                <td><img src="./images/ok.svg" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+
+      <section>
+        <article class="prefoot">
+          <img class="prefoot__lin" src="./images/lin_prefoot.png" alt="" />
+          <p class="prefoot__p">We’re in beta. Get your invite today!</p>
+          <button class="foot__r-btn">
+            GET AN INVITE
+            <img src="./images/frecia.svg" alt="" />
+          </button>
+        </article>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="foot__l">
+        <div class="foot__l-logo">
+          <img src="./images/logo_white.png" alt="" />
+          <ul>
+            <li class="fb"><a href=""></a></li>
+            <li class="youtube"><a href="#"></a></li>
+            <li class="twiter"><a href="#"></a></li>
+            <li class="ppp"><a href="#"></a></li>
+            <li class="insta"><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="foot__l-nav">
+          <ul>
+            <li><a class="fut_nav" href="./index.html">Home</a></li>
+            <li><a class="fut_nav" href="./stories.html">STORIES</a></li>
+            <li><a class="fut_nav" href="./features.html">FEATURES</a></li>
+            <li><a class="fut_nav" href="./pricing.html">PRICING</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot__r">
+        <button class="foot__r-btn">
+          GET AN INVITE
+          <img src="./images/frecia.svg" alt="" />
+        </button>
+        <p class="copyr">Copyright 2019. All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>

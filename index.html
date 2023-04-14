@@ -1,93 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>photosnap-multi-page-website</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="./index.html">
+        <img src="./images/logo.svg" alt="logo photosnap" />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="./stories.html">STORIES</a>
+          </li>
+          <li>
+            <a href="./features.html">FEATURES</a>
+          </li>
+          <li>
+            <a href="./pricing.html">PRICING</a>
+          </li>
+        </ul>
+      </nav>
+      <button>GET AN INVITE</button>
+    </header>
+
     <main>
-        <article class="content_photo">
-            <div class="card_story mountain">
-                <div class="storys_name">
-                    <div class="border_story">
-                        <h3 class="story_title">The Mountains</h3>
-                        <p class="story_by">by John Appleseed</p>
-                    </div>
-                    <button class="butt_story">READ STORY
-                        <img src="./images/frecia.svg" alt="">
-                    </button>
-                </div>
-                <div class="gradient"></div>
+      <section>
+        <article class="box">
+          <div class="box__content black">
+            <img
+              class="box__content-linear"
+              src="./images/linear gradient.svg"
+              alt=""
+            />
+            <div class="box__content-center">
+              <h2 class="h2__w">Create and share your photo stories.</h2>
+              <p class="p__w">
+                Photosnap is a platform for photographers and visual
+                storytellers. We make it easy to share photos, tell stories and
+                connect with others.
+              </p>
+              <button class="btn__w">
+                GET AN INVITE
+                <img src="./images/frecia.svg" alt="" />
+              </button>
             </div>
-            <div class="card_story city">
-                <div class="storys_name">
-                    <div class="border_story">
-                        <h3 class="story_title">Sunset Cityscapes</h3>
-                        <p class="story_by">by Benjamin Cruz</p>
-                    </div>
-                    <button class="butt_story">READ STORY
-                        <img src="./images/frecia.svg" alt="">
-                    </button>
-                </div>
-                <div class="gradient"></div>
-            </div>
-            <div class="card_story voyage">
-                <div class="storys_name">
-                   <div class="border_story">
-                        <h3 class="story_title">18 Days Voyage</h3>
-                        <p class="story_by">by Alexei Borodin</p>
-                   </div>
-                    <button class="butt_story">READ STORY
-                        <img src="./images/frecia.svg" alt="">
-                    </button>
-                </div>
-                <div class="gradient"></div>
-            </div>
-            <div class="card_story architect">
-                <div class="storys_name">
-                   <div class="border_story">
-                        <h3 class="story_title">Architecturals</h3>
-                        <p class="story_by">by Samantha Brooke</p>
-                   </div>
-                    <button class="butt_story">READ STORY
-                        <img src="./images/frecia.svg" alt="">
-                    </button>
-                </div>
-                <div class="gradient"></div>
-            </div>
+          </div>
+          <div class="box__img bit"></div>
         </article>
-    
-        <article class="responsive">
-            <div>
-                <img src="./images/responsive.svg" alt="gaget">
-                <div>
-                    <h3>100% Responsive</h3>
-                    <p>No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.</p>
-                </div>
+
+        <article class="box">
+          <div class="box__img comp"></div>
+          <div class="box__content white">
+            <div class="box__content-center">
+              <h2 class="h2__b">
+                BEAUTIFUL STORIES<br />
+                EVERY TIME
+              </h2>
+              <p class="p__b">
+                We provide design templates to ensure your stories look
+                terrific. Easily add photos, text, embed maps and media from
+                other networks. Then share your story with everyone.
+              </p>
+              <button class="btn__b">
+                VIEW THE STORIES
+                <img src="./images/freciaBlack.svg" alt="" />
+              </button>
             </div>
-            <div>
-                <img src="./images/forever.svg" alt="forever">
-                <div>
-                    <h3>No Photo Upload Limit</h3>
-                    <p>Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.</p>
-                </div>
-            </div>
-            <div>
-                <img src="./images/bullhorn.svg" alt="bullhorn">
-               <div>
-                    <h3>Available to Embed</h3>
-                    <p>Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more.</p>
-               </div>
-            </div>
+          </div>
         </article>
+
+        <article class="box">
+          <div class="box__content white">
+            <div class="box__content-center">
+              <h2 class="h2__b">DESIGNED FOR EVERYONE</h2>
+              <p class="p__b">
+                Photosnap can help you create stories that resonate with your
+                audience. Our tool is designed for photographers of all levels,
+                brands, businesses you name it.
+              </p>
+              <button class="btn__b">
+                VIEW THE STORIES
+                <img src="./images/freciaBlack.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="box__img graf"></div>
+        </article>
+
+        <article class="cards">
+          <div class="card mountain">
+            <div class="card__title">
+              <div class="card__title-h">
+                <h3 class="hcard">The Mountains</h3>
+                <p class="pcard">by John Appleseed</p>
+              </div>
+              <button class="btn__card">
+                READ STORY
+                <img src="./images/frecia.svg" alt="" />
+              </button>
+            </div>
+            <div class="gradient"></div>
+          </div>
+          <div class="card city">
+            <div class="card__title">
+              <div class="card__title-h">
+                <h3 class="hcard">Sunset Cityscapes</h3>
+                <p class="pcard">by Benjamin Cruz</p>
+              </div>
+              <button class="btn__card">
+                READ STORY
+                <img src="./images/frecia.svg" alt="" />
+              </button>
+            </div>
+            <div class="gradient"></div>
+          </div>
+          <div class="card voyage">
+            <div class="card__title">
+              <div class="card__title-h">
+                <h3 class="hcard">18 Days Voyage</h3>
+                <p class="pcard">by Alexei Borodin</p>
+              </div>
+              <button class="btn__card">
+                READ STORY
+                <img src="./images/frecia.svg" alt="" />
+              </button>
+            </div>
+            <div class="gradient"></div>
+          </div>
+          <div class="card architect">
+            <div class="card__title">
+              <div class="card__title-h">
+                <h3 class="hcard">Architecturals</h3>
+                <p class="pcard">by Samantha Brooke</p>
+              </div>
+              <button class="btn__card">
+                READ STORY
+                <img src="./images/frecia.svg" alt="" />
+              </button>
+            </div>
+            <div class="gradient"></div>
+          </div>
+        </article>
+
+        <article class="resp">
+          <div  class="respon">
+            <div class="respon__sive">
+              <img src="./images/responsive.svg" alt="gaget" />
+              <div class="respon__sive-cont">
+                <h3>100% Responsive</h3>
+                <p>
+                  No matter which the device you’re on, our site is fully
+                  responsive and stories look beautiful on any screen.
+                </p>
+              </div>
+            </div>
+            <div class="respon__sive">
+              <img src="./images/forever.svg" alt="forever" />
+              <div class="respon__sive-cont">
+                <h3>No Photo Upload Limit</h3>
+                <p>
+                  Our tool has no limits on uploads or bandwidth. Freely upload in
+                  bulk and share all of your stories in one go.
+                </p>
+              </div>
+            </div>
+            <div class="respon__sive">
+              <img src="./images/bullhorn.svg" alt="bullhorn" />
+              <div class="respon__sive-cont">
+                <h3>Available to Embed</h3>
+                <p>
+                  Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
+                  videos, Google Maps, and more.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
 
-</body>
+    <footer class="foot">
+      <div class="foot__l">
+        <div class="foot__l-logo">
+          <img src="./images/logo_white.png" alt="" />
+          <ul>
+            <li class="fb"><a href=""></a></li>
+            <li class="youtube"><a href="#"></a></li>
+            <li class="twiter"><a href="#"></a></li>
+            <li class="ppp"><a href="#"></a></li>
+            <li class="insta"><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="foot__l-nav">
+          <ul>
+            <li><a class="fut_nav" href="./index.html">Home</a></li>
+            <li><a class="fut_nav" href="./stories.html">STORIES</a></li>
+            <li><a class="fut_nav" href="./features.html">FEATURES</a></li>
+            <li><a class="fut_nav" href="./pricing.html">PRICING</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot__r">
+        <button class="foot__r-btn">
+          GET AN INVITE
+          <img src="./images/frecia.svg" alt="" />
+        </button>
+        <p class="copyr">Copyright 2019. All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
 </html>
